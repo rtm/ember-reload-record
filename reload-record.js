@@ -1,6 +1,4 @@
-import Ember from 'ember';
-
-export default Ember.Mixin.create({
+var ReloadRecord = Ember.Mixin.create({
 
   /**
    * Override `#beforeModel` to initialize the property which says if

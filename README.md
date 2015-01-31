@@ -15,6 +15,14 @@ However, simply doing that would cause double loading,
 in the case that the record did not already exist in the store and had been
 loaded via the `model` hook.
 
+### Installation
+
+    npm install ember-reload-record
+
+In Brocfile.js:
+
+    app.import('node_modules/ember-reload-record/reload-record.js');
+
 ### Usage
 
 In your routes, make sure to call _super from the `beforeModel` and
